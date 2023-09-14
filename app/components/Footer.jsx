@@ -3,10 +3,13 @@ import SendButton from "./SendButton"
 
 const Footer = () => {
   return (
-    <div>Footer works!
+    <div className="footer">
         <h3>Get answers to your cannabis questions!</h3>
-        <QueryInput />
-        <SendButton />
+        <div className="user-input-container">
+          <QueryInput />
+          <SendButton />
+        </div>
+        
     </div>
   )
 }

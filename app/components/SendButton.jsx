@@ -1,7 +1,9 @@
 
 const SendButton = () => {
   return (
-    <div>SendButton works!</div>
+    <div>
+      <button class="btn-darkmode">Send</button>
+    </div>
   )
 }
 

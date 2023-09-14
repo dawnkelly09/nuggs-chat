@@ -1,7 +1,12 @@
 // Desc: QueryInput component
 const QueryInput = () => {
   return (
-    <div>QueryInput works!</div>
+    <div>
+      <label htmlFor="user-query"></label>
+      <textarea id="user-query" name="user-query" rows="3" cols="50">
+        Ask Nuggs...
+      </textarea>
+    </div>
   )
 }
 
